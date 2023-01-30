@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Document</title>
 </head>
 
 <body>
+    <section id="menuCont"></section>
+    
     <header>
-        <nav>
+        <nav>      
             <img src="./images/logo.svg" alt="">
-            <ul>
+            <ul class="selections">
                 <div>
                     <li id="features">Features <img src="./images/icon-arrow-down.svg" alt="" id="features-row"></li>
                     <article id="features-info">
@@ -44,8 +46,25 @@
             <button class="buttons__login">Login</button>
             <button class="buttons__register">Register</button>
         </figure>
+        <img src="./images/icon-menu.svg" alt="" class="menu">
     </header>
+    <section class="container">
+        <article>
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync. no matter your location.
+            Streamline processes. create team rituals. and watch productivity
+          </p>
+          <button class="container__boton">Learn more</button>
+          <ul class="container__icons">
+              <li><img src="./images/client-databiz.svg" alt="icono"></li>
+              <li><img src="./images/client-audiophile.svg" alt="icono"></li>
+              <li><img src="./images/client-meet.svg" alt="icono"></li>
+              <li><img src="./images/client-maker.svg" alt="icono"></li>
+          </ul>
+        </article>
+        <figure class="container__imagen"></figure>
+      </section>
     <script src="./main.js" type="text/javascript"></script>
 </body>
-
 </html>
